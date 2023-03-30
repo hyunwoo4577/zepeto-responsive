@@ -1,0 +1,177 @@
+header {
+    background-color: #000;
+    position:fixed;
+    width:100%;
+    display: flex;
+    z-index: 999;
+    flex-flow: row nowrap;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 20px 10px;
+}
+header h1 {}
+header h1 a {}
+header h1 a img {}
+header nav {}
+header nav a {
+    color: #fff;
+    margin-right: 25px;
+    position: relative;
+    right: 30px;
+    font-size: 1.2rem;}  
+header nav a:last-child {margin: 0;}
+header .hd_right {}
+header .hd_right a:first-child {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 3px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 10px;
+}
+header .hd_right a img {
+    width: 35px;
+    height: 35px;
+    filter:invert(100%);
+    margin-left: 5px;
+}
+.header_bg {
+    overflow: hidden;
+    position: relative;
+}
+.header_bg video {
+    width:100%;}
+.header_bg h1 {
+    position: absolute;
+    left: 40%;
+    bottom: 70%;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.header_bg a {
+    color: #fff;
+    background: #000;
+    padding: 20px 50px;
+    border-radius: 10px;
+    position: absolute;
+    right:45%;
+    top:40%;
+}
+/* <!------------------------------------------- page1----------------------------------> */
+.pg_2 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.pg_2 h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 150px 0 50px;
+}
+.pg_2 p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5;
+}
+.pg_2 p img {width: 100%;}
+.pg_2_btm {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.pg_2_btm .list {margin-right: 200px;}
+.pg_2_btm .list1 {}
+.pg_2_btm .list2 {}
+.pg_2_btm .list3 {margin: 0;}
+.pg_2_btm .list p {}
+.pg_2_btm .list h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+/* <!------------------------------------------- page2----------------------------------> */
+.pg_3 {background-color: #f5f5f5;
+    padding: 150px 0 }
+.pg_3 h1 {text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.pg_3 h2 {
+    text-align: center;
+    margin: 40px 0;
+    line-height: 1.4;
+}
+.pg_3 #slide_wrap {}
+.pg_3 #slide_wrap .slide_container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;}
+.pg_3 #slide_wrap .slide_container .slide1 {
+
+}
+.pg_3 #slide_wrap .slide_container .slide2 {}
+.pg_3 #slide_wrap .slide_container .slide3 {}
+.pg_3 #slide_wrap .slide_container .slide {    
+    background: #fff;
+    padding:50px;
+    width:20%;
+    margin-right: 40px;
+    border-radius: 20px;}
+.pg_3 #slide_wrap .slide_container .slide h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.pg_3 #slide_wrap .slide_container .slide p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.pg_3 #slide_wrap .slide_container .slide a {
+    background: #000;
+    padding:10px 20px;
+    color:#fff;
+    border-radius: 15px;
+}
+/* <!------------------------------------------- page3----------------------------------> */
+.pg_4 {text-align: center;
+    margin: 150px;}
+.pg_4 h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 50px;}
+.pg_4 p {font-size: 1.2rem;}
+.pg_4 #gallery_wrap {
+    max-width:1900px; 
+    display:flex;
+    padding:50px 16px 0;
+}
+.pg_4 #gallery_wrap a {margin-right:16px;}
+.pg_4 #gallery_wrap a:last-child {margin:0;}
+.pg_4 #gallery_wrap a img{width:100%;}
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background: #f5f5f5;
+    padding: 50px 0;
+}
+footer .ft_left {
+    line-height: 2.5;
+    margin-left: 15px;}
+footer .ft_left a {margin-right: 15px;}
+footer .ft_left p {}
+footer .ft_right {display:flex;}
+footer .ft_right #lang {height:25px; border:none; margin-right:5px;}
+footer .ft_right #lang option {}
+footer .ft_right .sns {}
+footer .ft_right .sns a {}
+footer .ft_right .sns a img {}
+/* <!------------------------------------------- page4----------------------------------> */
